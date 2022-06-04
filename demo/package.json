@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "devel": "parcel --dist-dir=devl ./public/index.html",
+    "build": "parcel build --dist-dir=prod ./public/index.html",
+    "watch": "parcel watch --dist-dir=devl ./public/index.html"
+  },
+  "dependencies": {
+    "eventbus": "git+https://github.com/deandevl/EventBus.git"
+  },
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  }
+}
