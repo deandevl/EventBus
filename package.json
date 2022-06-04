@@ -1,0 +1,24 @@
+{
+  "name": "eventbus",
+  "version": "0.1.0",
+  "description": "A general purpose javascript event class for emitting and receiving events carrying any type of data.",
+  "source": "./src/EventBus.js",
+  "module": "./dist/EventBus.js",
+  "scripts": {
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deandevl/EventBus.git"
+  },
+  "keywords": [],
+  "author": "Rick Dean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deandevl/EventBus/issues"
+  },
+  "homepage": "https://github.com/deandevl/EventBus#readme",
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  }
+}
